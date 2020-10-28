@@ -1,0 +1,14 @@
+{
+    "glossary":[{
+        "title": "example glossary1",
+		"title": "S1",
+        "ID": "SGML1",
+		"SortAs": "SGML1",
+		"GlossTerm": "Standard Generalized Markup Language1",
+		"Acronym": "SGML1",
+		"Abbrev": "ISO 8879:19861",
+		"GlossDef": "A meta-markup language, used to create markup languages such as DocBook.",
+		"GlossSeeAlso": "GML",
+		"GlossSee": "markup1"
+                }]
+}
