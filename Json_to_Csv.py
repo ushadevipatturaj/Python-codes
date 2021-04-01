@@ -9,12 +9,13 @@ csv_writer = open('created_csv.csv', 'w')
 csv_data = csv.writer(csv_writer)
 count = 0
 for book in book_data:
-    if count == 0:
-        csv_data.writerow(book.keys())
-        csv_data.writerow(book.values())
-        count += 1
-    else:
-        csv_data.writerow(book.values())
+    print(book)
+    # if count == 0:
+    #     csv_data.writerow(book.keys())
+    #     csv_data.writerow(book.values())
+    #     count += 1
+    # else:
+    #     csv_data.writerow(book.values())
 
 csv_writer.close()
 
